@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Created by Oranje Maan
+30 November 2017
+-->
+<html>
+	<head>
+		<title>
+			The Not-so Barebones Clicker
+		</title>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+	<h1>
+	Welcome to the Not-so Barebones Clicker!
+	</h1>
+	<button onclick="save()">Save</button>
+	<button onclick="load()">Load</button>
+	<p>You currently have <span id="currency">0</span> currency.</p>
+	<button onclick="incrementCurrency(1)">Click</button>
+	<br />
+	<h3>Generators</h6>
+	<button onclick="buyG1()">Buy Level 1 Generator</button>
+	<p>Current Cost: <span id="G1Cost">10</span></p>
+	<p>Quantity: <span id="G1Quantity">0</span></p>
+	<h5 id="G1InvalidBuy"></h5>
+	<br />
+	<button onclick="buyG2()">Buy Level 2 Generator</button>
+	<p>Current Cost: <span id="G2Cost">100</span></p>
+	<p>Quantity: <span id="G2Quantity">0</span></p>
+	<h5 id="G2InvalidBuy"></h5>
+	<br />
+	<button onclick="buyG3()">Buy Level 3 Generator</button>
+	<p>Current Cost: <span id="G3Cost">1000</span></p>
+	<p>Quantity: <span id="G3Quantity">0</span></p>
+	<h5 id="G3InvalidBuy"></h5>
+	</body>
+</html>
